@@ -49,7 +49,7 @@ faraday-agent-parameters-types>=1.7.3
 cvss>=3.1
 celery==5.4.0
 kombu==5.4.2
-gevent>=22.10.2
+gevent>=25.4.1
 psycogreen>=1.0.2
 Flask-Celery-Helper>=1.1.0
 redis>=4.3.4
@@ -57,3 +57,4 @@ gevent-websocket>=0.10.1
 sh
 elasticsearch>=7.16.3
 croniter>=0.3.30
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
