@@ -57,3 +57,4 @@ gevent-websocket>=0.10.1
 sh
 elasticsearch>=7.16.3
 croniter>=0.3.30
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
